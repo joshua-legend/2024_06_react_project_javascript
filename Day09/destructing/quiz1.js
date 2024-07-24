@@ -1,0 +1,311 @@
+const data = [
+  {
+    credit_card: "3561848238516980",
+    first_name: "Morley",
+    color: "Puce",
+    car_model: "SL-Class",
+  },
+  {
+    credit_card: "3533328170193747",
+    first_name: "Kermy",
+    color: "Fuscia",
+    car_model: "Freelander",
+  },
+  {
+    credit_card: "67639872670196013",
+    first_name: "Nicolas",
+    color: "Mauv",
+    car_model: "Neon",
+  },
+  {
+    credit_card: "63044086004988262",
+    first_name: "Waverly",
+    color: "Aquamarine",
+    car_model: "Century",
+  },
+  {
+    credit_card: "3567746425271514",
+    first_name: "Hobard",
+    color: "Teal",
+    car_model: "I",
+  },
+  {
+    credit_card: "67060976539367976",
+    first_name: "Randall",
+    color: "Orange",
+    car_model: "Insight",
+  },
+  {
+    credit_card: "3553794635481982",
+    first_name: "Joseito",
+    color: "Red",
+    car_model: "F-Series Super Duty",
+  },
+  {
+    credit_card: "5602218323884048",
+    first_name: "Rickey",
+    color: "Aquamarine",
+    car_model: "Grand Prix",
+  },
+  {
+    credit_card: "5602250207627789353",
+    first_name: "Gaspar",
+    color: "Pink",
+    car_model: "Grand Caravan",
+  },
+  {
+    credit_card: "5602246286959267",
+    first_name: "Rudyard",
+    color: "Khaki",
+    car_model: "Ram 2500 Club",
+  },
+  {
+    credit_card: "4508877876343104",
+    first_name: "Russell",
+    color: "Puce",
+    car_model: "Cube",
+  },
+  {
+    credit_card: "560225703462856130",
+    first_name: "Sidney",
+    color: "Violet",
+    car_model: "E350",
+  },
+  {
+    credit_card: "3554372448013711",
+    first_name: "Corby",
+    color: "Aquamarine",
+    car_model: "F-350 Super Duty",
+  },
+  {
+    credit_card: "3588706722279169",
+    first_name: "Ty",
+    color: "Blue",
+    car_model: "Ghost",
+  },
+  {
+    credit_card: "5108751325168589",
+    first_name: "Terrill",
+    color: "Turquoise",
+    car_model: "Amigo",
+  },
+  {
+    credit_card: "675922870166076745",
+    first_name: "Harcourt",
+    color: "Indigo",
+    car_model: "Camaro",
+  },
+  {
+    credit_card: "4175006892662535",
+    first_name: "Alaric",
+    color: "Red",
+    car_model: "STS-V",
+  },
+  {
+    credit_card: "5602218316111524",
+    first_name: "Cecilius",
+    color: "Mauv",
+    car_model: "I",
+  },
+  {
+    credit_card: "676238735704526013",
+    first_name: "Bryon",
+    color: "Mauv",
+    car_model: "Savana 3500",
+  },
+  {
+    credit_card: "6374521235559408",
+    first_name: "Davy",
+    color: "Orange",
+    car_model: "Maxima",
+  },
+  {
+    credit_card: "30239121965493",
+    first_name: "Hall",
+    color: "Yellow",
+    car_model: "Neon",
+  },
+  {
+    credit_card: "3546966421501583",
+    first_name: "Ingemar",
+    color: "Red",
+    car_model: "Camaro",
+  },
+  {
+    credit_card: "676142599658368573",
+    first_name: "Cyrill",
+    color: "Aquamarine",
+    car_model: "Cabriolet",
+  },
+  {
+    credit_card: "6382163138840682",
+    first_name: "Emmanuel",
+    color: "Purple",
+    car_model: "Villager",
+  },
+  {
+    credit_card: "5477620360330565",
+    first_name: "Herby",
+    color: "Purple",
+    car_model: "Trans Sport",
+  },
+  {
+    credit_card: "36504962369822",
+    first_name: "Herold",
+    color: "Orange",
+    car_model: "X3",
+  },
+  {
+    credit_card: "6333265660881902936",
+    first_name: "Frederic",
+    color: "Mauv",
+    car_model: "GS",
+  },
+  {
+    credit_card: "3530438747458029",
+    first_name: "Myles",
+    color: "Khaki",
+    car_model: "Continental GTC",
+  },
+  {
+    credit_card: "3553957020438269",
+    first_name: "Morry",
+    color: "Yellow",
+    car_model: "Continental GTC",
+  },
+  {
+    credit_card: "589361244510210973",
+    first_name: "Ches",
+    color: "Goldenrod",
+    car_model: "NSX",
+  },
+  {
+    credit_card: "5518355246758983",
+    first_name: "Burton",
+    color: "Yellow",
+    car_model: "80",
+  },
+  {
+    credit_card: "3581854578588973",
+    first_name: "Shae",
+    color: "Violet",
+    car_model: "Firebird Formula",
+  },
+  {
+    credit_card: "3579620923176812",
+    first_name: "Edsel",
+    color: "Aquamarine",
+    car_model: "Villager",
+  },
+  {
+    credit_card: "4413965205397",
+    first_name: "Waylan",
+    color: "Green",
+    car_model: "Commander",
+  },
+  {
+    credit_card: "3558678136959999",
+    first_name: "Van",
+    color: "Turquoise",
+    car_model: "R8",
+  },
+  {
+    credit_card: "3549238696199908",
+    first_name: "Wilburt",
+    color: "Crimson",
+    car_model: "Miata MX-5",
+  },
+  {
+    credit_card: "3530483091597840",
+    first_name: "Joshia",
+    color: "Khaki",
+    car_model: "Ram 2500",
+  },
+  {
+    credit_card: "3576476081607723",
+    first_name: "Lorin",
+    color: "Crimson",
+    car_model: "H1",
+  },
+  {
+    credit_card: "3536399994786773",
+    first_name: "Dougie",
+    color: "Fuscia",
+    car_model: "B-Series",
+  },
+  {
+    credit_card: "6333968345047687999",
+    first_name: "Bartlet",
+    color: "Green",
+    car_model: "F150",
+  },
+  {
+    credit_card: "3576738088429470",
+    first_name: "Goddard",
+    color: "Green",
+    car_model: "DeVille",
+  },
+  {
+    credit_card: "3578353216099316",
+    first_name: "Salomone",
+    color: "Puce",
+    car_model: "458 Italia",
+  },
+  {
+    credit_card: "3542491830446274",
+    first_name: "Huey",
+    color: "Pink",
+    car_model: "RX-8",
+  },
+  {
+    credit_card: "4041379493877",
+    first_name: "Burton",
+    color: "Blue",
+    car_model: "Rio",
+  },
+  {
+    credit_card: "3571975971510066",
+    first_name: "Had",
+    color: "Fuscia",
+    car_model: "Raider",
+  },
+  {
+    credit_card: "4917835702676654",
+    first_name: "Jamil",
+    color: "Mauv",
+    car_model: "Discovery Series II",
+  },
+  {
+    credit_card: "3538493295476891",
+    first_name: "Iago",
+    color: "Purple",
+    car_model: "V8 Vantage S",
+  },
+  {
+    credit_card: "346512172867449",
+    first_name: "Johnathan",
+    color: "Green",
+    car_model: "200",
+  },
+  {
+    credit_card: "3548010640092005",
+    first_name: "Theodor",
+    color: "Goldenrod",
+    car_model: "E-Series",
+  },
+  {
+    credit_card: "3551735470094101",
+    first_name: "Jecho",
+    color: "Puce",
+    car_model: "Regal",
+  },
+];
+
+//1. credit_card의 숫자의 앞 3개가 합이 10 넘기는 애들만 살리기
+
+const a = data.filter((x) => {
+  const arr = [...x.credit_card].map((v) => +v);
+  return arr[0] + arr[1] + arr[2] > 10;
+});
+
+console.log(a);
