@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js" defer></script>
+</head>
+<body>
+    <section class="discount">
+        <div class="calculator">
+            <div class="original__price">
+                <span>원래 가격 </span>
+                <input id="originInput" type="number">
+                <span> 원</span>
+            </div>
+            <div class="discount__price">
+                <span>할인율 </span>
+                <input id="discountInput" type="number">
+                <span> %</span>
+            </div>
+            <button id="calcButton" class="discount__button">할인 가격 계산하기</button>
+        </div>
+        <div class="description">
+            <p>상품의 원래 가격은 <span id="originPrice">0</span>원이고, 할인율은 <span id="discountPercent">0</span>%입니다.
+            <span id="savePrice">0</span>원 절약한 <span id="calcPrice">0</span>원에 살 수 있습니다.
+            </p>
+        </div>
+    </section>
+</body>
+</html>
